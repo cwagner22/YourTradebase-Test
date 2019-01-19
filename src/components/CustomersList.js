@@ -48,10 +48,10 @@ class CustomersList extends Component {
 
     return (
       <div className="CustomersList">
-        <p>
+        <h4>
           There are {customersFiltered.length} customers living within 100km of
           Bristol (GPS coordinates 51.450167, -2.594678) and living in England:
-        </p>
+        </h4>
         <PrettyPrintJson data={customersFiltered} />
       </div>
     );
