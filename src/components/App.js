@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Button from "@material-ui/core/Button";
 import logo from "./logo.png";
 import "./App.css";
 import CustomersList from "./CustomersList";

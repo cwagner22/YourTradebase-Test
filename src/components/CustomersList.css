@@ -7,6 +7,6 @@
 .PrettyPrintJson {
   text-align: left;
   overflow-y: auto;
-  max-height: 400px;
+  max-height: 550px;
   background: #ececec;
 }
