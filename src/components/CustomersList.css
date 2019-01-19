@@ -1,0 +1,11 @@
+.CustomersList {
+  margin: 0 auto;
+  max-width: 489px;
+}
+
+.PrettyPrintJson {
+  text-align: left;
+  overflow-y: auto;
+  max-height: 400px;
+  background: #ececec;
+}
