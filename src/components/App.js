@@ -20,7 +20,7 @@ class App extends Component {
         <Button variant="contained" color="primary">
           Hello World
         </Button>
-        <CustomersList people={people} />
+        <CustomersList customers={people} />
       </div>;
   }
 }
