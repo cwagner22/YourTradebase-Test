@@ -23,7 +23,7 @@ const AverageCustomer = props => {
     (sum, customer) => sum + parseFloat(customer.value),
     0
   );
-  const average = sum / customersFiltered.length;
+  const average = customersFiltered.length ? sum / customersFiltered.length : 0;
 
   return (
     <div className="AverageCustomer">
